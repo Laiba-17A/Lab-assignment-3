@@ -1,0 +1,2 @@
+The wrong value is being Displayed in the output because of the size limit of the datatype int in C language. The size of int is 4 bytes at max, which can store 232 distinct numbers from - 2147483648 to 2147483647. Here the value in question if out of this range, causing integer overflow that is why we're being shown a negative random number in the terminal.
+
